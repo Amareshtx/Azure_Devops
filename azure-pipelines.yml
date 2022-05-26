@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool:
+pool:Amaresh1
   vmImage: ubuntu-latest
 
 steps:
@@ -22,5 +22,4 @@ steps:
     orchestratorConnection: 'con_orch_Devops'
     processName: 'Azure_Devops'
     folderName: 'Amaresh'
-    jobType: 'TestAutomation'
     user: 'txhyd-lap-01\amaresh golla'
