@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:Amaresh1
-  vmImage: ubuntu-latest
+pool:
+  Amaresh
 
 steps:
 - script: echo Hello, world!
